@@ -1,19 +1,19 @@
 import java.util.Map;
 
-public class ApiResponse {
+public class APIResponse {
     private String result;
-    private String documentation;
-    private String terms_of_use;
+//    private String documentation;
+//    private String terms_of_use;
     private String base_code;
     private Map<String, Double> conversion_rates;
 
     // Getters y setters
-    public String getResult() { 
-        return result; 
+    public String getResult() {
+        return result;
     }
 
-    public void setResult(String result) { 
-        this.result = result; 
+    public void setResult(String result) {
+        this.result = result;
     }
 
     public String getBase_code() { 
